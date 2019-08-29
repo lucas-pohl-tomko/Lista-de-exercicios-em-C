@@ -4,8 +4,7 @@
 int negativos(float *vet, int N){
 
     int i;
-    int qtdN;
-    qtdN =0;
+    int qtdN=0;
 
     for(i = 0;i < N;i++){
         if(vet[i]<0){
