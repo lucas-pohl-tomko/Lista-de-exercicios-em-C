@@ -18,12 +18,12 @@ int main (void)
     if(cod==0){
         exit(0);
     }
-    if(cod == 1){
+    else if(cod==1){
         for(i = 0; i < 5; i++){
             printf("%d",v[i]);
         }
     }
-    if(cod==2){
+    else if(cod==2){
 
         for(j = 4; j >= 0;j--){
             printf("%d",v[j]);
@@ -31,6 +31,7 @@ int main (void)
     }
     else
     {
+        printf("%d", cod);
         printf("erro");
     }
     
