@@ -5,7 +5,6 @@
 int main (void)
 {
     int v[5];
-    // int v2[5];
     int cod;
     int i,j;
 
